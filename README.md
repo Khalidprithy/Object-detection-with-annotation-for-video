@@ -141,7 +141,10 @@ To get a local copy up and running follow these simple example steps.
 <!-- CONTACT -->
 ## Contact
 
-Khalid Bin Alam - [@github](https://github.com/Khalidprithy)
+Khalid Bin Alam - 
+[@github](https://github.com/Khalidprithy)
+[@linkedIn](https://www.linkedin.com/in/khalidbinalam/)
+[@Portfolio](https://devkbin.netlify.app/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
