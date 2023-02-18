@@ -24,21 +24,21 @@ const Header = () => {
                             <a
                                 onClick={() => handleOptionClick("Home")}
                                 href="#home"
-                                class={`block py-2 pl-3 pr-4 text-xl text-gray-800 hover:text-teal-400 rounded md:bg-transparent md:p-0 dark:text-white bg-blue-700 ${activeOption === "Home" && "text-teal-500"
+                                class={`block py-2 pl-3 pr-4 text-xl text-gray-800 dark:text-gray-300 hover:text-teal-400 rounded md:bg-transparent md:p-0 bg-blue-700 ${activeOption === "Home" && "text-teal-500 dark:teal-600"
                                     }`} aria-current="page">Home</a>
                         </li>
                         <li>
                             <a
                                 onClick={() => handleOptionClick("Review")}
                                 href="#reviews"
-                                class={`block py-2 pl-3 pr-4 text-xl text-gray-800 hover:text-teal-400 rounded md:bg-transparent md:p-0 dark:text-white bg-blue-700 ${activeOption === "Review" && "text-teal-500"
+                                class={`block py-2 pl-3 pr-4 text-xl text-gray-800 dark:text-gray-300 hover:text-teal-400 rounded md:bg-transparent md:p-0 bg-blue-700 ${activeOption === "Review" && "text-teal-500 dark:teal-600"
                                     }`}>Reviews</a>
                         </li>
                         <li>
                             <a
                                 onClick={() => handleOptionClick("Contact")}
                                 href="#contact"
-                                class={`block py-2 pl-3 pr-4 text-xl text-gray-800 hover:text-teal-400 rounded md:bg-transparent md:p-0 dark:text-white bg-blue-700 ${activeOption === "Contact" && "text-teal-500"
+                                class={`block py-2 pl-3 pr-4 text-xl text-gray-800 dark:text-gray-300 hover:text-teal-400 rounded md:bg-transparent md:p-0 bg-blue-700 ${activeOption === "Contact" && "text-teal-500 dark:teal-600"
                                     }`}>Contact</a>
                         </li>
                     </ul>
