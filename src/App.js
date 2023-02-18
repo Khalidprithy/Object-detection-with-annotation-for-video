@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Banner from './Pages/Banner';
+import ContactUs from './Pages/ContactUs';
+import LocalFileHome from './Pages/LocalFile/LocalFileHome';
+import Reviews from './Pages/Reviews';
+import Footer from './Pages/Shared/Footer';
+import Header from './Pages/Shared/Header';
+import WebcamHome from './Pages/Webcam/WebcamHome';
 
 function App() {
+  const [showCam, setShowCam] = useState(false);
+  const [showLocalFile, setShowLocalFile] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='scroll-smooth'>
+      <header>
+        <Header />
       </header>
+      <main>
+
+        <Banner
+          showCam={showCam}
+          setShowCam={setShowCam}
+          showLocalFile={showLocalFile}
+          setShowLocalFile={setShowLocalFile}
+        />
+        <WebcamHome
+          setShowCam={setShowCam}
+          showCam={showCam}
+        />
+        <LocalFileHome
+          showLocalFile={showLocalFile}
+          setShowLocalFile={setShowLocalFile}
+        />
+        <Reviews />
+        <ContactUs />
+      </main>
+      <Footer />
     </div>
   );
 }

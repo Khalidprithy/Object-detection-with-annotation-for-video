@@ -1,0 +1,21 @@
+import React from 'react';
+import LiveCamInfoCard from './LiveCamInfoCard';
+import WebcamView from './WebcamView';
+
+const WebcamHome = ({ showCam, setShowCam }) => {
+    return (
+        <div>
+            {
+                showCam &&
+                <div className="max-w-screen-xl w-full grid grid-cols-1 lg:grid-cols-2 h-full justify-center mx-auto">
+                    <LiveCamInfoCard
+                        setShowCam={setShowCam}
+                    />
+                    <WebcamView />
+                </div>
+            }
+        </div>
+    );
+};
+
+export default WebcamHome;
