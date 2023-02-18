@@ -10,7 +10,7 @@ const Reviews = () => {
                         <div class="flex items-center mb-4 space-x-4">
                             <img class="w-10 h-10 rounded-full" src={user} alt="" />
                             <div class="space-y-1 font-medium dark:text-white">
-                                <p>PixelPete <time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">Joined on August 2014</time></p>
+                                <p>PixelPete <time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">02-10-2020</time></p>
                             </div>
                         </div>
                         <div class="flex items-center mb-1">
@@ -29,7 +29,7 @@ const Reviews = () => {
                         <div class="flex items-center mb-4 space-x-4">
                             <img class="w-10 h-10 rounded-full" src={user} alt="" />
                             <div class="space-y-1 font-medium dark:text-white">
-                                <p>Coderella<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">Joined on August 2014</time></p>
+                                <p>Coderella<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">02-08-2021</time></p>
                             </div>
                         </div>
                         <div class="flex items-center mb-1">
@@ -48,7 +48,7 @@ const Reviews = () => {
                         <div class="flex items-center mb-4 space-x-4">
                             <img class="w-10 h-10 rounded-full" src={user} alt="" />
                             <div class="space-y-1 font-medium dark:text-white">
-                                <p>AIEnthusiast<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">Joined on August 2014</time></p>
+                                <p>AIEnthusiast<time datetime="2014-08-16 19:00" class="block text-sm text-gray-500 dark:text-gray-400">15-06-2022</time></p>
                             </div>
                         </div>
                         <div class="flex items-center mb-1">
