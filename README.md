@@ -33,7 +33,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#developers">Developer</a></li>
+    <li><a href="#developer">Developer</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -43,15 +43,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is the Frontend Client site Repo. Here 
+VisualizeIt is a React app that uses TensorFlow and the COCO-SSD model to detect objects from a live webcam stream or a local video file. With VisualizeIt, you can easily see what objects are present in the video feed in real time.
 
-Why read it:
-* It will help you understand how to use and interact with the project.
-* It can can provide troubleshooting and problem-solving guidance
-* It will give an overview of the project's features, capabilities and limitations.
+# Features
+
+* Live object detection: VisualizeIt allows you to use your computer's webcam to detect objects in real time.
+* Object detection overlay: The detected objects are highlighted on the video stream with an overlay, making it easy to see what objects are present in the video.
+* Object list: The app displays a list of all the objects detected in the video, along with the name for each object.
+* Responsive design: VisualizeIt is built with responsive design, making it easy to use on different screen sizes and devices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -144,4 +145,11 @@ Khalid Bin Alam - [@github](https://github.com/Khalidprithy)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[React-url]: https://reactjs.org/
 
