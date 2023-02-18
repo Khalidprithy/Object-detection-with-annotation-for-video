@@ -68,7 +68,7 @@ const LocalFileDetection = () => {
                         transform: 'translate(-50%, -50%)'
                     }}
                 >No video selected <br />
-                    Please choose a file less then 50mb and 16:9 ratio for best results
+                    Please choose a file less then 50mb and 4:3 ratio for best results
                 </h6>
                 {videoUrl && (
                     <video
