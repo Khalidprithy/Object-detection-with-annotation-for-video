@@ -9,7 +9,7 @@ const Banner = ({ showCam, setShowCam, showLocalFile, setShowLocalFile }) => {
                         <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Discover the World Around You</h1>
 
                         <h4 class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-none md:text-2xl xl:text-3xl dark:text-white">Object Detection Made Easy</h4>
-                        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Welcome to our website, where you can experience the cutting-edge technology of object detection in both recorded and live video. Our intelligent algorithms can identify and track objects with accuracy and speed, providing you with valuable insights into the world around you.</p>
+                        <p class="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-300">Welcome to our website, where you can experience the cutting-edge technology of object detection in both recorded and live video. Our intelligent algorithms can identify and track objects with accuracy and speed, providing you with valuable insights into the world around you.</p>
 
                         <div className='flex gap-4'>
                             {

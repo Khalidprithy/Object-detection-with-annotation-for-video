@@ -6,7 +6,7 @@ const Reviews = () => {
             <div className='max-w-screen-xl mx-auto' >
                 <h4 className='text-2xl font-semibold text-center mb-5 text-gray-900 dark:text-white'>User Reviews and Testimonials</h4>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-5'>
-                    <article>
+                    <article className='shadow p-2 rounded hover:shadow-lg dark:bg-gray-800'>
                         <div class="flex items-center mb-4 space-x-4">
                             <img class="w-10 h-10 rounded-full" src={user} alt="" />
                             <div class="space-y-1 font-medium dark:text-white">
@@ -22,10 +22,9 @@ const Reviews = () => {
                         </div>
                         <h3 class="text-sm font-semibold text-gray-900 dark:text-white">
                             Accessible for Even Non-Technical Users</h3>
-                        <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400"><p>Reviewed in the United Kingdom on <time datetime="2017-03-03 19:00">March 3, 2017</time></p></footer>
-                        <p class="mb-2 font-light text-gray-500 dark:text-gray-400">I was skeptical at first, but after using this website for a few hours, I was really impressed. It's incredibly accurate and easy to use. I was able to quickly detect objects in videos and even live streams from my webcam. This is a game changer for anyone who needs to analyze videos and detect specific objects</p>
+                        <p class="mb-2 font-light text-gray-700 dark:text-gray-300">I was skeptical at first, but after using this website for a few hours, I was really impressed. It's incredibly accurate and easy to use. I was able to quickly detect objects in videos and even live streams from my webcam. This is a game changer for anyone who needs to analyze videos and detect specific objects</p>
                     </article>
-                    <article>
+                    <article className='shadow p-2 rounded hover:shadow-lg dark:bg-gray-800'>
                         <div class="flex items-center mb-4 space-x-4">
                             <img class="w-10 h-10 rounded-full" src={user} alt="" />
                             <div class="space-y-1 font-medium dark:text-white">
@@ -41,10 +40,9 @@ const Reviews = () => {
                         </div>
                         <h3 class="text-sm font-semibold text-gray-900 dark:text-white">
                             Great for a Variety of Use Cases</h3>
-                        <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400"><p>Reviewed in the United Kingdom on <time datetime="2017-03-03 19:00">March 3, 2017</time></p></footer>
-                        <p class="mb-2 font-light text-gray-500 dark:text-gray-400">I've used other object detection websites before, but this one is by far the best. The interface is intuitive and the detection accuracy is top-notch. I especially appreciate the option to upload local video files. It saves me a lot of time, and the results are always spot-on.</p>
+                        <p class="mb-2 font-light text-gray-700 dark:text-gray-300">I've used other object detection websites before, but this one is by far the best. The interface is intuitive and the detection accuracy is top-notch. I especially appreciate the option to upload local video files. It saves me a lot of time, and the results are always spot-on.</p>
                     </article>
-                    <article>
+                    <article className='shadow p-2 rounded hover:shadow-lg dark:bg-gray-800'>
                         <div class="flex items-center mb-4 space-x-4">
                             <img class="w-10 h-10 rounded-full" src={user} alt="" />
                             <div class="space-y-1 font-medium dark:text-white">
@@ -60,8 +58,7 @@ const Reviews = () => {
                         </div>
                         <h3 class="text-sm font-semibold text-gray-900 dark:text-white">
                             Impressive Accuracy and Ease of Use</h3>
-                        <footer class="mb-5 text-sm text-gray-500 dark:text-gray-400"><p>Reviewed in the United Kingdom on <time datetime="2017-03-03 19:00">March 3, 2017</time></p></footer>
-                        <p class="mb-2 font-light text-gray-500 dark:text-gray-400">This website is fantastic! It's great for a variety of use cases, including security and surveillance, educational research, and so much more. The real-time detection feature is particularly impressive. It's a great tool for anyone who needs to identify objects in real-time, and the ease of use makes it accessible for even non-technical users.</p>
+                        <p class="mb-2 font-light text-gray-700 dark:text-gray-300">This website is fantastic! It's great for a variety of use cases, including security and surveillance, educational research, and so much more. The real-time detection feature is particularly impressive. It's a great tool for anyone who needs to identify objects in real-time, and the ease of use makes it accessible for even non-technical users.</p>
                     </article>
                 </div>
             </div >
